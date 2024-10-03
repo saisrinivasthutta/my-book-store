@@ -1,0 +1,17 @@
+.search-input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #ffd700;
+}
+
+.search-input:hover {
+  border-color: #a8a8a8;
+}

@@ -1,0 +1,11 @@
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #333;
+  --main-color: #754ef9;
+  --gray-color: gray;
+
+  /* Font Variables */
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+}

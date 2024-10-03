@@ -1,0 +1,59 @@
+@import "../../assets/styles/variables.css";
+
+.nav-container {
+  background-color: #cbedec;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-items-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+  .nav-items-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 650px) {
+  .nav-items-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .nav-items-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .nav-items-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .search-input {
+    width: 80%;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+.logo-img {
+  height: 4rem;
+  width: 10rem;
+}

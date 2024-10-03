@@ -1,0 +1,10 @@
+@import "../../assets/styles/variables.css";
+
+.heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: var(--text-color);
+  text-align: center;
+}
