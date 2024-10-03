@@ -8,7 +8,7 @@ const MyLibrary = () => {
   const { myLibrary } = useContext(LibraryContext);
 
   return (
-    <div>
+    <div style={{ minHeight: "64vh" }}>
       <h1 style={{ "text-align": "center" }}>My Library</h1>
       {myLibrary.length === 0 ? (
         <div>
